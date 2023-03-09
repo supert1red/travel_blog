@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+aside{
+    height: 600px;
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	  <ul>
+		<li><a href="about.html">About</a></li>
+		<li><a href="travel_blog.html">Blog</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	  </ul>
+  </nav>
+  <aside>
+    <h3>I'm just a person who likes to travel and give good advice.</h3>
+    <h3>Read all the adventures I've been on and what I'd suggest.</h3>
+  </aside>
+  <main>
+		<h1>Contact Me</h1>
+	  		<form>
+				<p>Your name: <input name="user_name" type="text" id="user_name" value="First and Last name" size="50px"></p>
+				
+	  			<p>Your email: <input name="user_email" type="email" id="user_email"></p>
+				
+	  			<p>Your message:<br>
+				<textarea name="user_message" cols="65" rows="10" id="user_message"></textarea></p>
+				<p>Where did you hear about me: 
+					<br>	
+						<label>
+						<input type="radio" name="Answers to question" value="radio" id="Answerstoquestion_0">
+						Online</label>
+					  <br>
+					  <label>
+						<input type="radio" name="Answers to question" value="radio" id="Answerstoquestion_1">
+						Friend/Family</label>
+					  <br>
+					  <label>
+						<input type="radio" name="Answers to question" value="radio" id="Answerstoquestion_2">
+						&nbsp;First time learning about me&nbsp;</label>
+					  <br>
+					  <label>
+						<input type="radio" name="Answers to question" value="radio" id="Answerstoquestion_3">
+						From work</label>
+					 <br>
+					
+			  </p>
+						  <input name=".submit" type="submit" class="submit_btm" formaction="comment-box.php" formmethod="POST" value="Send Message">
+	</form>
+	  <br>
+  </main>
+</div>
+
+	<footer></footer>
+
+</body>
+</html>
